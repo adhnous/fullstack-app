@@ -1,0 +1,84 @@
+/* Full Page Styling */
+.trainer-register-page {
+    height: 100vh;
+    background: url('./horse-image.jpg.webp') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Form Container with Glassmorphism */
+  .form-container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input Fields */
+  input {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+  }
+  
+  input::placeholder {
+    color: #666;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 5px #4cafef;
+  }
+  
+  /* Buttons */
+  .action-btn,
+  .language-toggle,
+  .mode-toggle {
+    background-color: #4cafef;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .action-btn:hover,
+  .language-toggle:hover,
+  .mode-toggle:hover {
+    background-color: #3794d9;
+  }
+  
+  /* Success Message */
+  .success-message {
+    background-color: rgba(0, 255, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
